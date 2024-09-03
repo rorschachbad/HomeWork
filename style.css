@@ -15,64 +15,50 @@ li {
     list-style-type: none;
 }
 
-.wrapper {
-    font-family: monospace;
-    height: 100vh;
-    margin: 0 auto;
-    background-color: rgba(51, 72, 168, 0.5);
+/* .wrapper {
     position: relative;
-}
+} */
 
-.country-page {
+/* .country-page {
     display: none;
-}
+} */
 
 .container {
-    overflow: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1000px;
-    margin: 0 auto;
     height: 70%;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 0px 0px 10px 1px black;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 .show-countries {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    border-bottom: 3px dotted black;
-    padding-bottom: 30px;
+    /* display: flex;
+    justify-content: center; */
+    /* font-weight: bold; */
+    /* border-bottom: 3px dotted black; */
+    /* padding-bottom: 30px; */
 }
 
 .show-countries-btn {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 5px 50px;
-    font-size: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* padding: 5px 50px; */
+    /* font-size: 20px; */
     border-radius: 5px 15px;
-    background-color: rgb(33, 198, 33);
-    cursor: pointer;
+    /* background-color: rgb(33, 198, 33); */
+    /* cursor: pointer; */
     transition: 0.4s;
-    color: rgb(118, 0, 0);
+    /* color: rgb(118, 0, 0); */
 }
 
 .show-countries-btn:hover {
     box-shadow: 0px 0px 10px 1px black;
-    background-color: rgb(38, 226, 47);
+    /* background-color: rgb(38, 226, 47); */
 }
 
 .country-list {
-    font-family: monospace;
+    /* font-family: monospace;
     font-size: 20px;
-    margin-top: 30px;
-    display: flex;
+    margin-top: 30px; */
+    /* display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px; */
 }
 
 .country-list-item {
@@ -112,33 +98,29 @@ li {
 
 
 .country-page {
-    font-family: monospace;
-    height: 100vh;
     margin: 0 auto;
     background-color: rgba(60, 150, 25, 0.5);
     position: relative;
 }
 
 .country-page-container {
-    overflow: auto;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
     margin: 0 auto;
     height: 90vh;
-    border-radius: 20px;
-    padding: 15px;
     box-shadow: 0px 0px 10px 1px black;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
+
+
 
 .button-back {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80px;
+    max-width: 90px;
     cursor: pointer;
     color: rgb(66, 66, 66);
     font-weight: bold;

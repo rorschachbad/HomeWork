@@ -168,7 +168,7 @@ function goBackButton(e) {
 
     if (e.target.classList.contains('button-back')) {
         modal.style.display = 'none';
-        wrapper.style.display = 'block';
+        wrapper.style.display = 'flex';
     }
 }
 

@@ -10,19 +10,21 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <div class="show-countries">
-                <button class="show-countries-btn">Show Countries</button>
+    <div class="wrapper flex items-center justify-center h-screen bg-blue-900 relative">
+        <div class="container max-w-screen-lg overflow-auto absolute rounded-2xl p-4 shadow-2xl">
+            <div class="show-countries flex justify-center font-bold border-b-4 border-gray-800 border-dotted pb-8">
+                <button
+                    class="show-countries-btn font-mono font-bold py-1 px-12 text-xl bg-green-500 cursor-pointer text-red-700 hover:bg-green-400 shadow-2xl-black">Show
+                    Countries</button>
             </div>
-            <ul class="country-list"></ul>
+            <ul class="country-list flex flex-col font-mono text-xl mt-8 gap-y-2"></ul>
         </div>
     </div>
 
-    <div id="modal" class="country-page">
-        <div class="country-page-container">
+    <div id="modal" class="country-page font-mono h-screen hidden relative">
+        <div class="country-page-container overflow-auto absolute rounded-2xl p-4">
+
         </div>
-    </div>
     </div>
 
     <script src="test.js"></script>
